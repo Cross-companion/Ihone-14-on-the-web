@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+    <title>iPhone 14 User Interface</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script defer src="./JS/script.js"></script>
+  </head>
+  <body>
+    <div class="calculatorcontainer">
+      <div class="phone-screen">
+        <div class="calculatorextra">
+          <div class="camera-border">
+            <div class="camera">
+              <img src="./images/cameraicon.png" alt="" class="camera-icon" />
+              <span class="empty-span"></span>
+              <img src="./Images/cameraicon.png" alt="" class="camera-icon" />
+            </div>
+          </div>
+        </div>
+        <div class="calculatorinterface">
+          <div class="inputdiv parent">
+            <div class="input">
+              <div class="operation">
+                <bdi><span class="operation-value"></span></bdi>
+              </div>
+              <div class="answer">
+                <bdi><span class="answer-value"></span></bdi>
+              </div>
+            </div>
+            <div class="mini-operators-div">
+              <span
+                class="calculation-btn right-parenthesis mini-operators operators top-operators"
+                >(</span
+              >
+              <span
+                class="calculation-btn raise-to-power mini-operators operators top-operators not-actual"
+                >^</span
+              >
+              <span
+                class="calculation-btn left-parenthesis mini-operators operators top-operators"
+                >)</span
+              >
+            </div>
+          </div>
+          <div class="digits-container">
+            <div class="digits">
+              <div class="operators top-operators clear-all">AC</div>
+              <div class="calculation-btn operators top-operators">%</div>
+              <div class="operators top-operators back-space">
+                <i class="fa-solid fa-delete-left"></i>
+              </div>
+              <div class="calculation-btn operators smallsign division">÷</div>
+              <div class="calculation-btn numbers seven">7</div>
+              <div class="calculation-btn numbers eight">8</div>
+              <div class="calculation-btn numbers nine">9</div>
+              <div class="calculation-btn operators smallsign">×</div>
+              <div class="calculation-btn numbers four">4</div>
+              <div class="calculation-btn numbers five">5</div>
+              <div class="calculation-btn numbers six">6</div>
+              <div class="calculation-btn operators smallsign">-</div>
+              <div class="calculation-btn numbers one">1</div>
+              <div class="calculation-btn numbers two">2</div>
+              <div class="calculation-btn numbers three">3</div>
+              <div class="calculation-btn operators smallsign addition">+</div>
+              <div class="calculation-btn numbers zero">0</div>
+              <div class="calculation-btn numbers smallsign point">.</div>
+              <div class="operators smallsign equal-to">=</div>
+            </div>
+          </div>
+        </div>
+        <div class="home-page-interface change-page-exit">
+          <div class="current-date">
+            <div class="time">
+              <span class="current-hours"></span
+              ><span class="current-minutes"></span>
+            </div>
+            <div class="other-dates">
+              <div class="day space-me"></div>
+              <div class="month space-me"></div>
+              <div class="date space-me"></div>
+            </div>
+            <div class="music-player-shorthand remove-display">
+              <div
+                class="shorthand-music-artist-info centered-by-flex-horizontal"
+              >
+                <img src="" alt="" class="short-hand-music-icon" />
+                <div class="shorthand-song-details centered-by-flex-vertical">
+                  <div class="short-hand-music-song-name"></div>
+                  <div class="short-hand-music-artist-name"></div>
+                </div>
+              </div>
+              <div class="shorthand-music-controls centered-by-flex-all">
+                <div
+                  class="music-player-controls-shorthand centered-by-flex-all"
+                >
+                  <div class="previous-control-shorthand">
+                    <span class="material-icons-round"> fast_rewind </span>
+                  </div>
+                  <div class="play-shorthand show-display">
+                    <audio src="" class="audio"></audio>
+                    <i class="fa-solid fa-play music-play-icon"></i>
+                  </div>
+                  <div class="pause-shorthand remove-display">
+                    <i class="fa-solid fa-pause music-pause-icon"></i>
+                  </div>
+                  <div class="next-control-shorthand">
+                    <span class="material-icons-round"> fast_forward </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="icons-div">
+            <img
+              src="./Images/calculatoricon.png"
+              alt=""
+              class="icons calculator-icon"
+            />
+            <img
+              src="./Images/profilepic2.png"
+              alt=""
+              class="icons personal-icon"
+            />
+            <img
+              src="./Images/musicplayericon4.jpeg"
+              alt=""
+              class="icons music-player-icon"
+            />
+          </div>
+          <div class="overlay">
+            <div class="overlay-cover"></div>
+            <div class="all-modal-information">
+              <img
+                src="./Images/profilepic2.png"
+                alt=""
+                class="personal-icon-modal"
+              />
+              <div class="address-icons-container">
+                <div
+                  class="address-icons phone"
+                  onclick="document.location = 'tel: 08124151507'"
+                >
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div
+                  class="address-icons whatsapp"
+                  onclick="document.location='https://wa.me/message/RI4FCF6QTGSDF1'"
+                >
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div
+                  class="address-icons twitter"
+                  onclick="document.location='https://twitter.com/Cross_companion?t=XqIDp_5zy37Dpo-MCDaVOA&s=09'"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+              </div>
+              <span class="my-name"><b>Nwodoh Daniel .I.</b></span>
+              <div class="my-information">
+                <span class="my-occupation">Student and web developer.</span>
+                <span class="my-address"> Based in Lagos, Nigeria.</span>
+              </div>
+              <div class="loaders-container">
+                <span class="left-loader loader"></span
+                ><span class="right-loader loader"></span>
+              </div>
+            </div>
+            <div class="wallpaper-control-container">
+              <span class="prev-wallpaper wallpaper-control">-</span>
+              <span>set wallpaper</span>
+              <span class="next-wallpaper wallpaper-control">+</span>
+            </div>
+          </div>
+        </div>
+        <div class="music-player change-page-exit">
+          <div class="music-player-block">
+            <div class="now-playing-icon-container">
+              <img src="" alt="" class="now-playing-icon" />
+            </div>
+            <div class="songnameandartistname">
+              <div class="song-name"></div>
+              <span class="artist-name"></span>
+            </div>
+            <div class="music-player-controls">
+              <div class="previous-control control">
+                <span class="material-icons-round controller">
+                  fast_rewind
+                </span>
+              </div>
+              <div class="play control show-display">
+                <audio src="" class="audio"></audio>
+                <i class="fa-solid fa-play music-play-icon"></i>
+              </div>
+              <div class="pause control remove-display">
+                <i class="fa-solid fa-pause music-pause-icon"></i>
+              </div>
+              <div class="next-control control">
+                <span class="material-icons-round controller">
+                  fast_forward
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="infodiv">
+          <div class="nonsense">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsam
+            nulla possimus ipsa fugit neque. Aut nisi possimus ad facilis vel
+            sit quos earum animi, enim nihil labore, atque impedit ab sunt in,
+            doloremque cumque repellat eius quaerat! Pariatur eum repellendus
+            tempore maiores porro! Provident corrupti totam repellat quos quo
+            quis ratione vero nam aut perferendis. Incidunt alias non dolore
+            quasi! Veniam, obcaecati iste doloremque alias amet reiciendis
+            ducimus ullam consectetur in voluptas porro maiores voluptatem earum
+            quibusdam enim quis, iusto ea atque illum provident quisquam et
+            dignissimos eligendi perferendis. Labore quam quibusdam
+            necessitatibus modi consequuntur, officiis libero hic a?
+          </div>
+          <!-- <div class="change-page-button"></div> -->
+        </div>
+        <div class="home-indicator-container">
+          <div class="home-indicator">
+            <span class="home-indicator-animation"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
