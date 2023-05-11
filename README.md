@@ -14,7 +14,6 @@ This is an Update I made for the [Phone UI](https://www.frontendmentor.io/challe
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
