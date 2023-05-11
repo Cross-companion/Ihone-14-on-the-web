@@ -256,9 +256,9 @@ const automatateUpdate = function () {
     songID.push(
       songIDFunction(songDetails.artistNames[i], songDetails.songNames[i])
     );
-    songAddress.songSRC.push('..tree/main/Audio/' + songID[i] + '.mp3');
+    songAddress.songSRC.push('./tree/main/Audio/' + songID[i] + '.mp3');
     songAddress.nowPlayingAlbumPicture.push(
-      '..tree/main/Images/' + songID[i] + '.jpeg'
+      './tree/main/Images/' + songID[i] + '.jpeg'
     );
   }
 };
