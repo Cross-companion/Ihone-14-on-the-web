@@ -26,16 +26,20 @@ This is an Update I made for the [Phone UI](https://phone-ui-five.vercel.app/) P
 
 ### Screenshot
 
-Home Page
+#### Home Page
+
 ![Home Page](./screenshots/home.png)
 
-Iphone Calculator
+#### Iphone Calculator
+
 ![Destinations Page](./screenshots/calculator.png)
 
-Music player
+#### Music player
+
 ![Crew Page](./screenshots/music-player.png)
 
-Author's Information
+#### Author's Information
+
 ![Vehicles Page](./screenshots/author-information.png)
 
 ### Links
