@@ -74,7 +74,6 @@ for (let i = 0; i < calcBtn.length; i++) {
 }
 //
 document.addEventListener('keydown', function (e) {
-  console.log(e);
   if (e.key === 'Backspace') backSpaceFunction();
   if (
     (e.keyCode >= 48 && e.keyCode <= 57) ||
@@ -149,7 +148,7 @@ nextWallpaper.addEventListener('click', function () {
   }
   document.querySelector(
     '.home-page-interface'
-  ).style.backgroundImage = `url(./images/mobilebackground${wallpaperNumber}.jpg)`;
+  ).style.backgroundImage = `url(../images/mobilebackground${wallpaperNumber}.jpg)`;
 });
 prevWallpaper.addEventListener('click', function () {
   wallpaperNumber--;
@@ -158,7 +157,7 @@ prevWallpaper.addEventListener('click', function () {
   }
   document.querySelector(
     '.home-page-interface'
-  ).style.backgroundImage = `url(./images/mobilebackground${wallpaperNumber}.jpg)`;
+  ).style.backgroundImage = `url(../images/mobilebackground${wallpaperNumber}.jpg)`;
 });
 // BACK TO CALCULATOR
 document
@@ -255,8 +254,8 @@ const automatateUpdate = function () {
     songID.push(
       songIDFunction(songDetails.artistNames[i], songDetails.songNames[i])
     );
-    songAddress.songSRC.push('./Audio/' + songID[i] + '.mp3');
-    songAddress.nowPlayingAlbumPicture.push('./Images/' + songID[i] + '.jpeg');
+    songAddress.songSRC.push('../Audio/' + songID[i] + '.mp3');
+    songAddress.nowPlayingAlbumPicture.push('../Images/' + songID[i] + '.jpeg');
   }
 };
 automatateUpdate();

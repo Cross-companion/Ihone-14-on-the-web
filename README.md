@@ -1,4 +1,4 @@
-# IPhone 14 UI - Fun Prject With Calculator and Music player App all in One
+# IPhone 14 UI - Fun Project With Calculator and Music player App all in One
 
 This is an Update I made for the [Phone UI](https://phone-ui-five.vercel.app/) Project ! worked on in Jul/Aug 2022.
 
