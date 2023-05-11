@@ -1,3 +1,4 @@
+console.log('IT Worked');
 const shortHandMusicIcon = document.querySelector('.short-hand-music-icon');
 const shortHandMusicSongname = document.querySelector(
   '.short-hand-music-song-name'
@@ -149,6 +150,7 @@ nextWallpaper.addEventListener('click', function () {
   document.querySelector(
     '.home-page-interface'
   ).style.backgroundImage = `url(../images/mobilebackground${wallpaperNumber}.jpg)`;
+  console.log('IT Worked');
 });
 prevWallpaper.addEventListener('click', function () {
   wallpaperNumber--;
